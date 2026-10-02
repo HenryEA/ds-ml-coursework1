@@ -1,0 +1,7 @@
+Using the 2026 DRC Ebola surveillance dataset, clean the data and analyse the progression of the outbreak by answering the following.
+a. Load the dataset and aggregate it into a single national daily series for cases and deaths. How many DRC provinces were aff ected? How many cases and deaths? Verify your totals against a WHO or ECDC situation report.
+b. Check data quality: report the number of missing dates between the fi rst and last report, at national level. Does the pattern of missing dates suggest random data loss or a structured reporting schedule?
+c. Explain the following interpolation methods: linear interpolation, step interpolation (forward-fill), cubic spline interpolation, and exponential interpolation. Apply one method to fi ll the missing data to produce a clean daily series, and justify your choice. Using the cleaned series, estimate the dates when cumulative cases exceeded 100, 500, 1,000, 2,000 and 3,500, and when cumulative deaths exceeded 50,100, 500, 1,000 and 1,500. Plot both series and mark each threshold crossing with a circle.
+d. Calculate the average daily percentage growth rate in cases and deaths using the per-interval daily rates method and the log-linear method, and discuss the results(Which estimate would you report, and why?
+e. Plot cumulative deaths against cumulative cases, and discuss the case fatality rate among confirmed cases.
+f. A colleague argues that the cleaned series you used is not real data. How would you respond?
